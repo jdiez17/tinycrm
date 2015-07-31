@@ -3,7 +3,6 @@
 var gulp = require('gulp'),
     browserify = require('browserify'),
     babelify = require('babelify'),
-    clean = require('gulp-clean'),
     source = require('vinyl-source-stream'),
     livereload = require('gulp-livereload'),
     del = require('del');
