@@ -1,6 +1,6 @@
 *.pyc
 
-tinycrm/static/bower_components/
+tinycrm/static/scripts/js/dist/main.js
 node_modules/
 
 bin/
