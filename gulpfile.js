@@ -16,7 +16,7 @@ gulp.task('clean', function() {
 gulp.task('transform', function() {
     browserify({
         entries: './tinycrm/static/scripts/jsx/main.jsx',
-        extensions: ['.jsx'],
+        extensions: ['.jsx', '.js'],
         debug: true
     })
     .transform(babelify)

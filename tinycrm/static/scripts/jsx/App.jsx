@@ -1,5 +1,7 @@
 import React from "react";
 
+import {Navbar, Nav, NavItem} from 'react-bootstrap';
+
 export class App extends React.Component { 
     constructor() {
         super();
@@ -7,7 +9,11 @@ export class App extends React.Component {
 
     render() {
         return (
-            <h2>Hello world from JSX!</h2>
+            <Navbar brand="tinycrm">
+                <Nav>
+                    <NavItem eventKey={1} href="#">Main</NavItem>
+                </Nav>
+            </Navbar>
         );
     }
 }

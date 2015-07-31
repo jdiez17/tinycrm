@@ -20,5 +20,8 @@
     "gulp-size": "^1.2.3",
     "react": "^0.13.3",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react-bootstrap": "^0.24.3"
   }
 }

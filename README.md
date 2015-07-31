@@ -14,10 +14,9 @@ And the dependencies:
 
     pip install -r requirements.txt
 
-You'll also need npm and bower. Installing this is left as an exercise for the reader. After you have that, install the JS dependencies:
+You'll also need npm. Installing this is left as an exercise for the reader. After you have that, install the JS dependencies:
 
     npm install
-    bower install
 
 With any luck, that will have downloaded everything you need. You can compile the static assets like so:
 
