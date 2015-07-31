@@ -1,0 +1,8 @@
+*.pyc
+
+tinycrm/static/bower_components/
+node_modules/
+
+bin/
+include/
+lib/
